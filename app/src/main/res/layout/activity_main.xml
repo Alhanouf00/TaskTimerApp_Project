@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity"
+    android:background="@drawable/start_backg"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/work_time"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tasktimer_l"
+            android:layout_gravity="center"
+            android:layout_marginTop="65dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="serif-monospace"
+            android:text="manage your tasks with\nour Task Timer App"
+            android:textAlignment="center"
+            android:textColor="@color/light_gray"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/startBtn"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/start_bt"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+</FrameLayout>

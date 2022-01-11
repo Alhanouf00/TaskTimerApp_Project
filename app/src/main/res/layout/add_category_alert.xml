@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/trans_s_with_shadow"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/bauhaus93regular"
+        android:text="New Category"
+        android:textAlignment="center"
+        android:textColor="@color/m_blue"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="280dp"
+        android:layout_height="230dp"
+        android:layout_gravity="center"
+        android:src="@drawable/add_cetogry_gif" />
+
+    <EditText
+        android:id="@+id/catNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:ems="10"
+        android:hint="Category Title..."
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addBtn"
+        android:layout_width="230dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/gradient"
+        android:text="Add "
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+</LinearLayout>

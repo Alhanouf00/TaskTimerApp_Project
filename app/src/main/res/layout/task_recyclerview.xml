@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="25dp"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="10dp"
+    android:id="@+id/taskCV">
+
+    <LinearLayout
+        android:id="@+id/taskLL"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="horizontal"
+        android:background="@drawable/light_blue_r"
+        >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:src="@drawable/clock_circle" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/start_stopBtn"
+                android:state_pressed="false"
+                android:layout_width="35dp"
+                android:layout_height="31dp"
+                android:layout_gravity="center"
+                android:background="@drawable/start_ic"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/itemTaskTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/abhaya_libre"
+                android:text="School"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/itemTimerTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Time: 4:00"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/expandIV"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/expand_ic" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/expandableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:orientation="vertical"
+        android:background="@drawable/expand_backg1"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:id="@+id/descriptionTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Here a description."
+            android:layout_gravity="center"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/abhaya_libre"
+            />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TaskTimerApp/app/src/main/res/drawable/selector.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TaskTimerApp/app/src/main/res/font/abhaya_libre.xml" value="0.10729166666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TaskTimerApp/app/src/main/res/font/font.xml" value="0.10729166666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TaskTimerApp/app/src/main/res/layout/activity_category.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TaskTimerApp/app/src/main/res/layout/activity_main.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TaskTimerApp/app/src/main/res/layout/activity_tasks.xml" value="0.20556414219474498" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TaskTimerApp/app/src/main/res/layout/add_category_alert.xml" value="0.22" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TaskTimerApp/app/src/main/res/layout/add_task_alert.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TaskTimerApp/app/src/main/res/layout/category_recyclerview.xml" value="0.15601851851851853" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TaskTimerApp/app/src/main/res/layout/icon_recyclerview.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TaskTimerApp/app/src/main/res/layout/section_recyclerview.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TaskTimerApp/app/src/main/res/layout/task_recyclerview.xml" value="0.17565485362095531" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TaskTimerApp/app/src/main/res/menu/bottom_navigation.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/TaskTimerApp/app/src/main/res/menu/menu.xml" value="0.15601851851851853" />
+        <entry key="..\:/Users/alhan/AndroidStudioProjects/TaskTimerApp/app/src/main/res/drawable/expand_ic.xml" value="0.3203125" />
+        <entry key="..\:/Users/alhan/AndroidStudioProjects/TaskTimerApp/app/src/main/res/drawable/expand_less_ic.xml" value="0.3203125" />
+        <entry key="..\:/Users/alhan/AndroidStudioProjects/TaskTimerApp/app/src/main/res/layout/task_recyclerview.xml" value="0.2324074074074074" />
+        <entry key="..\:/Users/alhan/Desktop/TaskTimerApp-master/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/saad/AndroidStudioProjects/TaskTimerApp/app/src/main/res/layout/activity_tasks.xml" value="0.25" />
+        <entry key="..\:/Users/saad/AndroidStudioProjects/TaskTimerApp/app/src/main/res/layout/add_category_alert.xml" value="0.25" />
+        <entry key="..\:/Users/saad/AndroidStudioProjects/TaskTimerApp/app/src/main/res/layout/add_task_alert.xml" value="0.25" />
+        <entry key="..\:/Users/saad/AndroidStudioProjects/TaskTimerApp/app/src/main/res/layout/task_recyclerview.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
